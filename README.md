@@ -1,4 +1,4 @@
-# Deep-Learning---Exp-7
+0# Deep-Learning---Exp-7
 
 **Implement an Autoencoder in TensorFlow/Keras**
 
@@ -107,12 +107,12 @@ autoencoder.fit(x_train_noisy, x_train_scaled,
                 shuffle=True,
                 validation_data=(x_test_noisy, x_test_scaled))
 
-print("Adhithya K 2305002001")
+print("kunam poorna chandra 2305001012")
 metrics = pd.DataFrame(autoencoder.history.history)
 metrics[['loss','val_loss']].plot()
 
 decoded_imgs = autoencoder.predict(x_test_noisy)
-print("Adhithya K 2305002001")
+print("poorna chnadra 2305001012")
 n = 10
 plt.figure(figsize=(20, 4))
 for i in range(1, n + 1):
